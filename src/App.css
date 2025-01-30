@@ -28,6 +28,53 @@
   color: #61dafb;
 }
 
+.map-container {
+  height: 500px;
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+#right {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 50%;
+  width: 50%;
+  overflow-y: scroll;
+}
+#right {
+  background-color: #fff;
+  height:100%;
+}
+
+/* .scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-container {
+  scrollbar-width: none;
+} */
+
+.address {
+  border-right: 4px;
+  margin: 10px;
+  padding: 10px 5px 0 10px;
+}
+
+div.address:hover {
+  background-color: #eee;
+}
+
+div.active {
+  border-style: none solid none none;
+  border-right-color: #000;
+}
+
+.custom-marker {
+  transition: all 200ms ease-in-out;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
